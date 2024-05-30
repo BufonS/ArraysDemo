@@ -32,6 +32,9 @@ public class App
     		System.out.println("Se han recibido los siguientes argumentos");
     		for(String argumento : args)
     			System.out.println(argumento);
+    		ARRAY_SIZE = Integer.parseInt(args[1]); //"20"
+    		
+    		System.out.println("El tamaño del array es : " + ARRAY_SIZE);
     	}
     	
     }
